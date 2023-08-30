@@ -17,7 +17,7 @@ namespace sayac
                 for (int f = 0; f < 24; f++)
                 {
                 repeat:
-                    Console.WriteLine(f + " ");//ekrana f değerini yaz
+                    Console.WriteLine(" " + f);//ekrana f değerini yaz
                     System.Threading.Thread.Sleep(3600000);//1 saat bekle
                     if (f == 24)//eğer f 24 e eşitse f sayısını 0 yap ve repeat yerine git
                     {
@@ -28,7 +28,7 @@ namespace sayac
           for (int i = 0; i < 60; i++)
                 {
                 tekrar:
-                    Console.WriteLine(i + " ");//ekrana a değerini yaz
+                    Console.WriteLine(" " + i);//ekrana a değerini yaz
                     System.Threading.Thread.Sleep(60000);//1 dakika bekle
                     if (i == 60)
                     {
